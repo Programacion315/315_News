@@ -1,9 +1,17 @@
 import React from 'react'
+import { Header } from '../../components/Home/Header'
+import { SearchBar } from '../../components/Home/SearchBar'
 
 const Home = () => {
   return (
     <div>
-      <h1>Home page</h1>
+      {/*Page Header*/}
+      <Header/>
+
+      {/*Search bar*/}
+      <SearchBar/>
+
+      {/*Blog list & Empty list*/}
     </div>
   )
 }

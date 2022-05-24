@@ -1,0 +1,14 @@
+.home-header{
+    text-align: center;
+}
+
+.home-header h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: antiquewhite;
+}
+
+.home-header p{
+    color: blue;
+    font-size: 2rem;
+}
